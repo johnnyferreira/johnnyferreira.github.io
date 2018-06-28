@@ -72,6 +72,12 @@ header.teste{
 	margin-top: 20px;
 }
 
+@media screen and (max-width: 400px){
+	.conteudo-suporte{
+		margin-left: -20px;
+	}	
+} 
+
 .titu-conteudo-home{
 	font-size: 18px;
 }
