@@ -70,40 +70,45 @@ html, body{
 	text-shadow: 2px 2px 2px #111;
 }
 
-@media screen and (max-width: 620px){
+@media screen and (max-width: 700px){
+	.banner{
+		background-image: url('../../imgs/img5-mobile.jpg');
+	}
+
 	.titu-banner{
-		font-size: 45px;
 		padding-top: 100px;
 	}
 
 	.sub-titu-banner{
-		font-size: 25px;
-		padding-top: 20px;
-		padding-bottom: 80px;
+		padding-top: 50px;
+		padding-bottom: 50px;	
 	}
-
 }
 
 /* Estilo da area Sobre Mim*/
 .artc1{
+	width: 100%;
 	height: 80%;
 }
 
 
 /* Estilo portifolio */
 .artc2{
+	width: 100%;
 	height: 80%;
 	background: #00d2ff;
 }
 
 /* Estilo contato */
 .artc3{
+	width: 100%;
 	height: 80%;
 	background: #eee;
 }
 
 /* Estilo rodapé */
 footer{
+	width: 100%;
 	background: #333;
 	color: white;
 	height: 40%;
